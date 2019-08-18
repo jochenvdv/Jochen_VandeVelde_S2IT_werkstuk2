@@ -13,6 +13,9 @@
 		3FFB8951230994EE0036206C /* MobileAppsWerkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB894F230994EE0036206C /* MobileAppsWerkstuk2.xcdatamodeld */; };
 		3FFB8953230994EE0036206C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB8952230994EE0036206C /* Assets.xcassets */; };
 		3FFB8956230994EE0036206C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB8954230994EE0036206C /* LaunchScreen.storyboard */; };
+		3FFB89702309CCA80036206C /* VerkeersIntensiteit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB896F2309CCA80036206C /* VerkeersIntensiteit.swift */; };
+		3FFB89722309CD110036206C /* Coordinaten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB89712309CD110036206C /* Coordinaten.swift */; };
+		3FFB89742309D5900036206C /* VerkeersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB89732309D5900036206C /* VerkeersInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3FFB8952230994EE0036206C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFB8955230994EE0036206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FFB8957230994EE0036206C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFB896F2309CCA80036206C /* VerkeersIntensiteit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkeersIntensiteit.swift; sourceTree = "<group>"; };
+		3FFB89712309CD110036206C /* Coordinaten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinaten.swift; sourceTree = "<group>"; };
+		3FFB89732309D5900036206C /* VerkeersInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerkeersInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,9 @@
 		3FFB8947230994EE0036206C /* MobileAppsWerkstuk2 */ = {
 			isa = PBXGroup;
 			children = (
+				3FFB896E2309CC940036206C /* Models */,
+				3FFB896D2309CC7C0036206C /* Controllers */,
 				3FFB8948230994EE0036206C /* AppDelegate.swift */,
-				3FFB894A230994EE0036206C /* VerkeersKaart.swift */,
 				3FFB894C230994EE0036206C /* Main.storyboard */,
 				3FFB8952230994EE0036206C /* Assets.xcassets */,
 				3FFB8954230994EE0036206C /* LaunchScreen.storyboard */,
@@ -65,6 +72,24 @@
 				3FFB894F230994EE0036206C /* MobileAppsWerkstuk2.xcdatamodeld */,
 			);
 			path = MobileAppsWerkstuk2;
+			sourceTree = "<group>";
+		};
+		3FFB896D2309CC7C0036206C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB894A230994EE0036206C /* VerkeersKaart.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FFB896E2309CC940036206C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FFB896F2309CCA80036206C /* VerkeersIntensiteit.swift */,
+				3FFB89712309CD110036206C /* Coordinaten.swift */,
+				3FFB89732309D5900036206C /* VerkeersInfo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFB89742309D5900036206C /* VerkeersInfo.swift in Sources */,
 				3FFB894B230994EE0036206C /* VerkeersKaart.swift in Sources */,
 				3FFB8949230994EE0036206C /* AppDelegate.swift in Sources */,
+				3FFB89702309CCA80036206C /* VerkeersIntensiteit.swift in Sources */,
 				3FFB8951230994EE0036206C /* MobileAppsWerkstuk2.xcdatamodeld in Sources */,
+				3FFB89722309CD110036206C /* Coordinaten.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
